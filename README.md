@@ -1,70 +1,39 @@
-# Getting Started with Create React App
+# Overwrapped
+No matter what time of the year it is, view your top musical data from either the past year, 6 months, or month by using Overwrapped!
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+**Link to project:** https://overwrapped.up.railway.app/
 
-## Available Scripts
+## How It's Made:
 
-In the project directory, you can run:
+**Tech used:** React, JavaScript, OAuth 2.0, Node.js, HTML, CSS, Bootstrap
 
-### `npm start`
+Soon after initializing the project using Create React App, I began this project by first setting up the routing to the different pages I planned to have. With the overall layout established and the app created on the Spotify for Developers site, I was then able to use Spotify's O.Auth 2.0 authorization framework. I then fixed the visibility of the user's login hash in the url and set the token into local storage. Now able to make requests to the Spotify API to get the user's info, I built three components: a profile. top artists, and top tracks. Finally, I added all the components to the main home page and styled everything using Bootstrap.  
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Optimizations
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+If I were to improve this app, I would first add more components of data that would be displayed to the user. For example, I would want to also show top albums as well give the user the ability to download their top tracks into a playlist on their Spotify account. I would also like to give the user customization options as to how they would like their data showcased to them.
 
-### `npm test`
+## Lessons Learned:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+At the end of building this project, I was able to learn so many new things. Working with React was an entire process in itself that lead to me understanding why it is such a popular front-end alternative and all the various aspects as to how it works. As well, working with such a popular API as Spotify's, I adapted myself to new documentation and forms of authentication. 
 
-### `npm run build`
+## Install:
+'npm install'
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Things to Add:
+- Create an '.env' file in the config folder and add the following as 'key = value'
+    - REACT_APP_CLIENT_ID = 'your spotify developer client id'
+    - REACT_APP_CLIENT_SECRET = 'your spotify developer client secret'
+    - REACT_APP_REDIRECT_URL = 'your redirect url after logging in'
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Run:
+'npm start'
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Examples:
+Take a look at these other examples that I have in my portfolio:
 
-### `npm run eject`
+**Yestoday:** https://github.com/s-magana/yestoday
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+**My Chatbot:** https://github.com/s-magana/my-chatbot
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+**Buy2k:** https://github.com/s-magana/buy2k
