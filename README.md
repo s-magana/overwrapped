@@ -1,7 +1,7 @@
 # Overwrapped
 No matter what time of the year it is, view your top musical data from either the past year, 6 months, or month by using Overwrapped!
 
-**Link to project:** https://overwrapped.up.railway.app/ *(under Spotify review)*
+**Link to project:** https://overwrapped.up.railway.app *(under Spotify review)*
 
 https://github.com/s-magana/overwrapped/assets/113574110/e86a2b0b-71a7-4804-afd0-5df50058ec2d
 
