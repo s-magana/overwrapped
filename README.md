@@ -13,7 +13,7 @@ Soon after initializing the project using Create React App, I began this project
 
 ## Optimizations
 
-If I were to improve this app, I would first add more components of data that would be displayed to the user. For example, I would want to also show top albums as well give the user the ability to download their top tracks into a playlist on their Spotify account. I would also like to give the user customization options as to how they would like their data showcased to them.
+If I were to improve this app, I would first add more components of data that would be displayed to the user. For example, I would want to show top albums as well as give the user the ability to download their top tracks into a playlist on their Spotify account. I would also like to give the user customization options as to how they would like their data showcased to them. Further, I would like to add a feature where the user can simultaneously play their Spotify music while using the app. 
 
 ## Lessons Learned:
 
