@@ -9,7 +9,7 @@ https://github.com/s-magana/overwrapped/assets/113574110/e86a2b0b-71a7-4804-afd0
 
 **Tech used:** React, JavaScript, OAuth 2.0, Node.js, HTML, CSS, Bootstrap
 
-Soon after initializing the project using Create React App, I began this project by first setting up the routing to the different pages I planned to have. With the overall layout established and the app created on the Spotify for Developers site, I was then able to use Spotify's O.Auth 2.0 authorization framework. I then fixed the visibility of the user's login hash in the url and set the token into local storage. Now able to make requests to the Spotify API to get the user's info, I built three components: a profile. top artists, and top tracks. Finally, I added all the components to the main home page and styled everything using Bootstrap.  
+Soon after initializing the project using Create React App, I began this project by first setting up the routing to the different pages I planned to have. With the overall layout established and the app created on the Spotify for Developers site, I was then able to use Spotify's O.Auth 2.0 authorization framework. I then fixed the visibility of the user's login hash in the url and set the token into local storage. Now able to make requests to the Spotify API to get the user's info, I built three components: a profile, top artists, and top tracks. Finally, I added all the components to the main home page and styled everything using Bootstrap.  
 
 ## Optimizations
 
